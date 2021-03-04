@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background-color: lightgray;
+    font-family: 'Truculenta', sans-serif;
+    padding-top: 25px;
+ }
+ .gameboard{
+     padding: 0 25px 20px 25px;
+     width: max-content;
+     height: max-content;
+     margin: auto;
+     text-align: center;
+ }
+ .gameboard h1{
+     font-size: 60px;
+     font-weight: 200;
+ }
+ #tiles{
+     width: max-content;
+     margin: auto;
+     display: grid;
+     
+ }
+ #tiles div{
+     height: 80px;
+     width: 80px;
+     cursor: pointer;
+     background-color: green;
+ }
+ #danger{
+     width: 400px;
+     background-color: red;
+ }
+
+.bonefound{
+    background-color: brown !important;
+    background: url("bone.png") no-repeat;
+    background-size: contain;
+}
+.bonenotfound{
+    background-color: brown !important;
+    background-image: none;
+}
+.gameoverbone{
+    background-color: red !important;
+    background: url("bone.png") no-repeat;
+    background-size: contain;
+}
